@@ -59,7 +59,7 @@ int main() {
     init();   
     int i,j;
     FILE *ffont;
-    ffont = fopen("data/font.txt","r");
+    ffont = fopen("../data/font.txt","r");
     if(ffont == NULL) {
         printf("No data in font.txt\n");
         return 0;
@@ -68,7 +68,7 @@ int main() {
         int xa,xb,ya,yb;
         int num_of_line;
         printf("ok\n");
-        for(i = 0; i < 13; i++){
+        for(i = 0; i < 14; i++){
             char dummy;
             fscanf(ffont,"\n%c",&dummy);
             printf("dummy: %c\n",dummy);
@@ -98,6 +98,7 @@ int main() {
     //bresLine(100,0,0,300,1);
     //bresLine(316,300,325,329,1);
     //bresLine(216,200,234,258,1);      
+
     int xstart = 50;
     int ystart = 50;
     int cursor = 0;  
@@ -107,8 +108,6 @@ int main() {
             if(input[i] == alphabet[j].font) {
                 drawLetter(ystart,xstart,alphabet[j]);
             }
-        }
-        //printf("%d\n", cursor);
         xstart+=50;
         i++;
         cursor++;
