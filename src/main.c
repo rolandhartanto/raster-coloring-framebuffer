@@ -25,6 +25,20 @@ http://cep.xor.aps.anl.gov/software/qt4-x11-4.2.2/qtopiacore-testingframebuffer.
 
 struct fb_var_screeninfo vinfo;
 struct fb_fix_screeninfo finfo;
+
+typedef struct{
+    int r1,c1; //koord. titik awal
+    int r2,c2; //koord. titik akhir
+}line;
+
+typedef struct{
+    int nline; //jumlah garis
+    line border[40];
+}letter;
+
+letter alphabet[26];
+char bg[1000][1000];
+
 char *fbp = 0;
 int fbfd = 0;
 long int screensize = 0;
@@ -35,32 +49,45 @@ void clearScreen();
 void printpixelBG(int x, int y, int colorR, int colorG, int colorB);
 void printPixel(int x, int y, int color);
 void bresLine(int x1, int y1, int x2, int y2, int thickness);
-
-char bg[1000][1000];
+void drawLetter(int roffset, int coffset, letter x);
 
 int main() {
     // Open the file for reading and writing
 
     init();   
-    int i;
+    int i,j;
     FILE *ffont;
-    ffont = fopen("font.txt","r");
+    ffont = fopen("../data/font.txt","r");
     if(ffont == NULL) {
         printf("No data in font.txt\n");
         return 0;
     }
     else {
-        i = 0;
+        int xa,xb,ya,yb;
+        int num_of_line;
         printf("ok\n");
-        while(fscanf(ffont, "%s",bg[i]) !=EOF) {
-            printf("%d", i);
-            printf("%s\n",bg[i]);
-            i++;
+        for(i = 0; i < 7; i++){
+            fscanf(ffont, "%d",&num_of_line);
+            alphabet[i].nline = num_of_line;
+            for(j = 0; j<num_of_line; j++){
+                fscanf(ffont, "%d %d %d %d",&xa,&ya,&xb,&yb);
+                //printf("%d %d %d %d\n",xa,ya,xb,yb);
+                alphabet[i].border[j].r1 = xa;
+                alphabet[i].border[j].c1 = ya;
+                alphabet[i].border[j].r2 = xb;
+                alphabet[i].border[j].c2 = yb;
+
+            }
         }
     }
 
     clearScreen();
     int kolom = 700;
+    //bresLine(0,0,400,200,1);   
+    while(1){
+    	drawLetter(100,100,alphabet[2]);
+    }
+    /*
     while(1){
         clearScreen();
         int idx = i+1;
@@ -77,7 +104,7 @@ int main() {
         // TODO: Garis horizontal
         
 
-    }
+    }*/
     munmap(fbp, screensize);
     close(fbfd);
     return 0;
@@ -122,7 +149,7 @@ void init(){
 void clearScreen() {	//BackGround Screen
     for (int h = 0; h < HEIGHT; h++){
         for (int w = 0; w < WIDTH; w++) {
-				printpixelBG(w,h,0,0,255);
+				printpixelBG(w,h,255,255,255);
         }
     }
 }
@@ -228,5 +255,15 @@ void bresLine(int x1, int y1, int x2, int y2, int thickness){
             }
         }
         
+    }
+}
+
+void drawLetter(int roffset, int coffset, letter x){
+    int i,j;
+    for(i = 0; i < x.nline; i++){
+        //printf("%d %d\n",x.border[i].r1 + roffset, x.border[i].c1 + coffset);
+        //printf("%d %d\n",x.border[i].r2 + roffset, x.border[i].c2 + coffset);
+        bresLine(x.border[i].c1 + coffset, x.border[i].r1 + roffset,
+                 x.border[i].c2 + coffset, x.border[i].r2 + roffset, 1);
     }
 }
