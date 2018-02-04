@@ -50,6 +50,7 @@ void printpixelBG(int x, int y, int colorR, int colorG, int colorB);
 void printPixel(int x, int y, int color);
 void bresLine(int x1, int y1, int x2, int y2, int thickness);
 void drawLetter(int roffset, int coffset, letter x);
+void swap(int* a, int* b);
 
 int main() {
     // Open the file for reading and writing
@@ -57,7 +58,7 @@ int main() {
     init();   
     int i,j;
     FILE *ffont;
-    ffont = fopen("../data/font.txt","r");
+    ffont = fopen("data/font.txt","r");
     if(ffont == NULL) {
         printf("No data in font.txt\n");
         return 0;
@@ -66,7 +67,7 @@ int main() {
         int xa,xb,ya,yb;
         int num_of_line;
         printf("ok\n");
-        for(i = 0; i < 12; i++){
+        for(i = 0; i < 13; i++){
             char dummy;
             fscanf(ffont,"\n%c",&dummy);
             printf("dummy: %c\n",dummy);
@@ -86,9 +87,22 @@ int main() {
 
     clearScreen();
     int kolom = 700;
-    //bresLine(0,0,400,200,1);   
+    //bresLine(500,500,0,0,1);
+    bresLine(0,0,500,100,1);
+    bresLine(500,0,500,100,1);
+    bresLine(0,100,500,100,1);
+    bresLine(100,0,0,300,1);
+    //bresLine(316,300,325,329,1);
+    //bresLine(216,200,234,258,1);      
+    
     while(1){
-    	drawLetter(100,100,alphabet[11]);
+    	//drawLetter(100,100,alphabet[11]);
+    	drawLetter(100,100,alphabet[7]);
+    	drawLetter(150,100,alphabet[8]);
+    	drawLetter(200,100,alphabet[9]);
+    	drawLetter(250,100,alphabet[10]);
+    	drawLetter(300,100,alphabet[11]);
+    	drawLetter(350,100,alphabet[12]);
     }
     /*
     while(1){
@@ -181,83 +195,34 @@ void printPixel(int x, int y, int color){
     }
 }
 
-void bresLine(int x1, int y1, int x2, int y2, int thickness){
-    int dx, dy, x, y, x_end, y_end, p, const1, const2, i;
-    for(i = 0; i < thickness; i++){
-	if(((x1-x2 > 0)&&(y1-y2 > 0))||((x1-x2 < 0)&&(y1-y2 < 0))){
-            dx = abs(x1-x2);
-            dy = abs(y1-y2);
-    
-            p = 2 * dy - dx;
-            const1 = 2 * dy;
-            const2 = 2 * (dy-dx);
-
-            if(x1 > x2){
-                x = x2 + i;
-                y = y2;
-                x_end = x1 + i;
-            }else{
-                x = x1 + i;
-                y = y1;
-                x_end = x2 + i;
-            }
-    
+void bresLine(int x_1, int y_1, int x_2, int y_2, int thickness){
+    int x1 = x_1, y1 = y_1, x2 = x_2, y2 = y_2;
+    int steep = 0;
+    if(abs(x1-x2) < abs(y1-y2)){
+        swap(&x1, &y1);
+        swap(&x2, &y2);
+        steep = 1;
+    }
+    if(x1 > x2){
+        swap(&x1,&x2);
+        swap(&y1,&y2);
+    }
+    int dx = x2-x1;
+    int dy = y2-y1;
+    int derr = 2 * abs(dy);
+    int err = 0;
+    int y = y1;
+    for(int x = x1; x <= x2; x++){
+        if(steep){
+            printPixel(y,x,0);
+        }else{
             printPixel(x,y,0);
-            while(x < x_end){
-                x++;
-                if(p < 0){
-                    p = p + const1;
-                }else{
-                    y++;
-                    p = p + const2;
-                }
-        
-                printPixel(x,y,0);
-            }
-        }else if(((x1-x2 < 0)&&(y1-y2 > 0))||((x1-x2 > 0)&&(y1-y2 < 0))){ //gradien negatif
-            dx = abs(x1-x2);
-            dy = abs(y1-y2);
-    
-            p = 2 * dy - dx;
-            const1 = 2 * dy;
-            const2 = 2 * (dy-dx);
-
-            if(x1 > x2){
-                x = x2 + i;
-                y = y2;
-                x_end = x1 + i;
-            }else{
-                x = x1 + i;
-                y = y1;
-                x_end = x2 + i;
-            }
-    
-            printPixel(x,y,0);
-            while(x < x_end){
-                x++;
-                if(p < 0){
-                    p = p + const1;
-                }else{
-                    y--;
-                    p = p + const2;
-                }
-        
-                printPixel(x,y,0);
-            }
-        }else if(x1-x2 == 0){ //gradien tak hingga
-            y_end = (y1 > y2)? y1:y2;
-            y = (y1 > y2)? y2:y1;
-            for(int j=y; j<y_end; j++){
-                printPixel(x1+i,j,0);
-            }
-        }else if(y1-y2 == 0){ //gradien 0
-            x_end = (x1 > x2)? x1:x2;
-            x = (x1 > x2)? x2:x1;
-            for(int j=x; j<x_end; j++){
-                printPixel(j,y1+i,0);
-            }
         }
-        
+        err+=derr;
+        if(err > dx){
+            y += (y2>y1)?1:-1;
+            err -= 2 * dx;
+        }
     }
 }
 
@@ -269,4 +234,10 @@ void drawLetter(int roffset, int coffset, letter x){
         bresLine(x.border[i].c1 + coffset, x.border[i].r1 + roffset,
                  x.border[i].c2 + coffset, x.border[i].r2 + roffset, 1);
     }
+}
+
+void swap(int* a, int* b){
+    int temp = *a;
+    *a = *b;
+    *b = temp;
 }
