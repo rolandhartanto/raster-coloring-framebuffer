@@ -66,7 +66,7 @@ int main() {
         int xa,xb,ya,yb;
         int num_of_line;
         printf("ok\n");
-        for(i = 0; i < 7; i++){
+        for(i = 0; i < 12; i++){
             char dummy;
             fscanf(ffont,"\n%c",&dummy);
             printf("dummy: %c\n",dummy);
@@ -88,7 +88,7 @@ int main() {
     int kolom = 700;
     //bresLine(0,0,400,200,1);   
     while(1){
-    	drawLetter(100,100,alphabet[6]);
+    	drawLetter(100,100,alphabet[11]);
     }
     /*
     while(1){
