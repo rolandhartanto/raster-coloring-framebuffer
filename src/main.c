@@ -280,6 +280,9 @@ void rasterize(int roffset, int coffset, char font) {
             arr[0] = arr[1];
             arr[1] = arr[2];
             nPoint--;
+        } else if(font == 'W' && i==22) {
+            arr[1] = arr[3];
+            nPoint-=2;
         }
         else if (font == 'M' && i==3) {
             //printf("nPoint = %d\n", nPoint);
