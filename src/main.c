@@ -58,7 +58,7 @@ int main() {
     init();   
     int i,j;
     FILE *ffont;
-    ffont = fopen("data/font.txt","r");
+    ffont = fopen("../data/font.txt","r");
     if(ffont == NULL) {
         printf("No data in font.txt\n");
         return 0;
@@ -67,7 +67,7 @@ int main() {
         int xa,xb,ya,yb;
         int num_of_line;
         printf("ok\n");
-        for(i = 0; i < 13; i++){
+        for(i = 0; i < 14; i++){
             char dummy;
             fscanf(ffont,"\n%c",&dummy);
             printf("dummy: %c\n",dummy);
