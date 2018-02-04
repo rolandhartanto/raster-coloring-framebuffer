@@ -22,6 +22,8 @@ http://cep.xor.aps.anl.gov/software/qt4-x11-4.2.2/qtopiacore-testingframebuffer.
 #define WIDTH 800
 #define INIT_HEIGHT 100
 #define INIT_WIDTH 100
+#define FONT_HEIGHT 30
+#define FONT_WIDTH 30
 
 struct fb_var_screeninfo vinfo;
 struct fb_fix_screeninfo finfo;
@@ -59,7 +61,7 @@ int main() {
     init();   
     int i,j;
     FILE *ffont;
-    ffont = fopen("../data/font.txt","r");
+    ffont = fopen("data/font.txt","r");
     if(ffont == NULL) {
         printf("No data in font.txt\n");
         return 0;
@@ -117,6 +119,7 @@ int main() {
     while(i < strlen(input)) {
         for(int j = 0; j < 26; j++) {
             if(input[i] == alphabet[j].font) {
+                printf("%c\n", input[i]);
                 drawLetter(ystart,xstart,alphabet[j]);
             }
         }
@@ -234,15 +237,82 @@ void bresLine(int x_1, int y_1, int x_2, int y_2, int thickness){
     }
 }
 
+void getPixelColor(int x, int y, int *rColor, int *gColor, int *bColor) {
+      location = (x+vinfo.xoffset) * (vinfo.bits_per_pixel/8) +
+                       (y+vinfo.yoffset) * finfo.line_length;
+            *rColor = *(fbp+location);
+            *gColor = *(fbp+location+1);
+            *bColor = *(fbp+location+2);
+}
+
+int isBlack(int x, int y) {
+    int rColor;
+    int gColor;
+    int bColor;
+    getPixelColor(x,y,&rColor, &gColor, &bColor);
+    return(rColor == 0 && gColor == 0 && bColor == 0);
+}
+
+void rasterize(int roffset, int coffset) {
+    unsigned char onFlag = 0;
+    unsigned char started = 0;
+    for(int i = 0; i < FONT_HEIGHT; i++) {
+        int arr[30];
+        int nPoint = 0;
+        int y = roffset + i;
+
+        for(int j = 0; j < FONT_WIDTH; j++) {
+            int x = coffset + j;
+            if(isBlack(x,y)) {
+                arr[nPoint] = j;
+                while(isBlack(x,y)) {
+                    j++;
+                    x = coffset + j;
+                }
+                nPoint++;
+            }
+        }
+        printf("i: %d, nPoint: %d\n", i, nPoint);
+        int median = -1;
+        if(nPoint % 2 != 0) {
+            median = nPoint / 2;
+        }
+        printf("median: %d\n", median);
+        printf("Start Printing::\n");
+        if(nPoint > 1 && i!=0 && i!=29) {
+            for(int it = 0; it < nPoint-1; it+=2) {
+                if(it == median) {
+                    it++;
+                }
+                int startPoint = it;
+                int endPoint = it+1;
+                if(endPoint == median)
+                    endPoint++;
+                printf("SP: %d %d EP %d %d\n", startPoint, arr[startPoint], endPoint, arr[endPoint]);
+                if(endPoint < nPoint){
+                    if(arr[endPoint] > arr[startPoint]){
+                        for(int jt = arr[startPoint]; jt < arr[endPoint];jt++){
+                            int x = coffset + jt;
+                            printpixelBG(x,y,0,0,0);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 void drawLetter(int roffset, int coffset, letter x){
     int i,j;
     for(i = 0; i < x.nline; i++){
-        //printf("%d %d\n",x.border[i].r1 + roffset, x.border[i].c1 + coffset);
-        //printf("%d %d\n",x.border[i].r2 + roffset, x.border[i].c2 + coffset);
+        // printf("%d %d\n",x.border[i].r1 + roffset, x.border[i].c1 + coffset);
+        // printf("%d %d\n",x.border[i].r2 + roffset, x.border[i].c2 + coffset);
         bresLine(x.border[i].c1 + coffset, x.border[i].r1 + roffset,
                  x.border[i].c2 + coffset, x.border[i].r2 + roffset, 1);
     }
+    rasterize(roffset, coffset);
 }
+
 
 void swap(int* a, int* b){
     int temp = *a;
