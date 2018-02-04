@@ -32,6 +32,7 @@ typedef struct{
 }line;
 
 typedef struct{
+    char font; //huruf apa
     int nline; //jumlah garis
     line border[40];
 }letter;
@@ -72,6 +73,7 @@ int main() {
             fscanf(ffont,"\n%c",&dummy);
             printf("dummy: %c\n",dummy);
             fscanf(ffont, "%d",&num_of_line);
+            alphabet[i].font = dummy;
             alphabet[i].nline = num_of_line;
             for(j = 0; j<num_of_line; j++){
                 fscanf(ffont, "%d %d %d %d",&xa,&ya,&xb,&yb);
@@ -84,43 +86,38 @@ int main() {
             }
         }
     }
+    char input[1000];
+    scanf("%[^\n]",input);
 
     clearScreen();
     int kolom = 700;
     //bresLine(500,500,0,0,1);
-    bresLine(0,0,500,100,1);
-    bresLine(500,0,500,100,1);
-    bresLine(0,100,500,100,1);
-    bresLine(100,0,0,300,1);
+    //bresLine(0,0,500,100,1);
+    //bresLine(500,0,500,100,1);
+    //bresLine(0,100,500,100,1);
+    //bresLine(100,0,0,300,1);
     //bresLine(316,300,325,329,1);
     //bresLine(216,200,234,258,1);      
-    
-    while(1){
-    	drawLetter(100,100,alphabet[7]);
-    	drawLetter(150,100,alphabet[8]);
-    	drawLetter(200,100,alphabet[9]);
-    	drawLetter(250,100,alphabet[10]);
-    	drawLetter(300,100,alphabet[11]);
-    	drawLetter(350,100,alphabet[12]);
-    }
-    /*
-    while(1){
-        clearScreen();
-        int idx = i+1;
-        int i = 0;
-        printf("%d\n", i);
-        // Garis vertikal atau miring
-        while(i < idx) {
-            printf("%d\n", i);
-            bresLine(atoi(bg[i]), atoi(bg[i+1]), atoi(bg[i+2]), atoi(bg[i+3]), 2);
-            printf("%d\n", i);
-            i = i + 4;
+    int xstart = 50;
+    int ystart = 50;
+    int cursor = 0;  
+    i = 0;    
+    while(i < strlen(input)) {
+        for(int j = 0; j < 26; j++) {
+            if(input[i] == alphabet[j].font) {
+                drawLetter(ystart,xstart,alphabet[j]);
+            }
         }
-        i = 0;
-        // TODO: Garis horizontal
-        
-
-    }*/
+        //printf("%d\n", cursor);
+        xstart+=50;
+        i++;
+        cursor++;
+        if(cursor == 14) {
+            ystart+=50;
+            xstart=50;
+            cursor=0;
+        }
+    }
     munmap(fbp, screensize);
     close(fbfd);
     return 0;
