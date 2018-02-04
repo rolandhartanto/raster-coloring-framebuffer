@@ -253,7 +253,7 @@ int isBlack(int x, int y) {
     return(rColor == 0 && gColor == 0 && bColor == 0);
 }
 
-void rasterize(int roffset, int coffset) {
+void rasterize(int roffset, int coffset, char font) {
     unsigned char onFlag = 0;
     unsigned char started = 0;
     for(int i = 0; i < FONT_HEIGHT; i++) {
@@ -274,9 +274,17 @@ void rasterize(int roffset, int coffset) {
         }
         printf("i: %d, nPoint: %d\n", i, nPoint);
         int median = -1;
+        if(font == 'G' && i==15) {
+            nPoint--;
+        } else if(font == 'J' && i==18) {
+            arr[0] = arr[1];
+            arr[1] = arr[2];
+            nPoint--;
+        }
         if(nPoint % 2 != 0) {
             median = nPoint / 2;
         }
+       
         printf("median: %d\n", median);
         printf("Start Printing::\n");
         if(nPoint > 1 && i!=0 && i!=29) {
@@ -310,7 +318,7 @@ void drawLetter(int roffset, int coffset, letter x){
         bresLine(x.border[i].c1 + coffset, x.border[i].r1 + roffset,
                  x.border[i].c2 + coffset, x.border[i].r2 + roffset, 1);
     }
-    rasterize(roffset, coffset);
+    rasterize(roffset, coffset, x.font);
 }
 
 

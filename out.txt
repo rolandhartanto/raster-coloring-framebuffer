@@ -1,0 +1,3459 @@
+sudo bin/main
+The framebuffer device was opened successfully.
+800x600, 32bpp
+The framebuffer device was mapped to memory successfully.
+ok
+dummy: A
+dummy: B
+dummy: C
+dummy: D
+dummy: E
+dummy: F
+dummy: G
+dummy: H
+dummy: I
+dummy: J
+dummy: K
+dummy: L
+dummy: M
+dummy: N
+dummy: O
+dummy: P
+dummy: Q
+dummy: R
+dummy: S
+dummy: T
+dummy: U
+dummy: V
+dummy: W
+dummy: X
+dummy: Y
+dummy: Z
+input: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+A
+i: 0, nPoint: 1
+median: 0
+Start Printing::
+i: 1, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 16
+i: 2, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 8 EP 1 17
+i: 3, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 8 EP 1 17
+i: 4, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 8 EP 1 17
+i: 5, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 7 EP 2 18
+i: 6, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 7 EP 2 18
+i: 7, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 7 EP 2 18
+i: 8, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 7 EP 1 11
+SP: 2 14 EP 3 18
+i: 9, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 6 EP 1 11
+SP: 2 14 EP 3 19
+i: 10, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 6 EP 1 11
+SP: 2 14 EP 3 19
+i: 11, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 6 EP 1 11
+SP: 2 14 EP 3 19
+i: 12, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 5 EP 1 10
+SP: 2 15 EP 3 20
+i: 13, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 5 EP 2 20
+i: 14, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 5 EP 1 20
+i: 15, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 4 EP 1 21
+i: 16, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 4 EP 1 21
+i: 17, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 4 EP 1 21
+i: 18, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 3 EP 2 22
+i: 19, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 3 EP 1 8
+SP: 2 17 EP 3 22
+i: 20, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 3 EP 1 7
+SP: 2 18 EP 3 22
+i: 21, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 2 EP 1 7
+SP: 2 18 EP 3 23
+i: 22, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 2 EP 1 7
+SP: 2 18 EP 3 23
+i: 23, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 2 EP 1 7
+SP: 2 18 EP 3 23
+i: 24, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 2 EP 1 6
+SP: 2 19 EP 3 23
+i: 25, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 1 EP 1 6
+SP: 2 19 EP 3 24
+i: 26, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 1 EP 1 6
+SP: 2 19 EP 3 24
+i: 27, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 1 EP 1 6
+SP: 2 19 EP 3 24
+i: 28, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 20 EP 3 25
+i: 29, nPoint: 2
+median: -1
+Start Printing::
+B
+i: 0, nPoint: 1
+median: 0
+Start Printing::
+i: 1, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 20
+i: 2, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 20
+i: 3, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 20
+i: 4, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 0 EP 2 20
+i: 5, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 16 EP 3 20
+i: 6, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 16 EP 3 20
+i: 7, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 16 EP 3 20
+i: 8, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 16 EP 3 20
+i: 9, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 16 EP 3 20
+i: 10, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 16 EP 3 20
+i: 11, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 0 EP 2 20
+i: 12, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 20
+i: 13, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 20
+i: 14, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 20
+i: 15, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 16, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 17, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 18, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 0 EP 2 25
+i: 19, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 20, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 21, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 22, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 23, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 24, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 25, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 0 EP 2 25
+i: 26, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 27, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 28, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 29, nPoint: 1
+median: 0
+Start Printing::
+C
+i: 0, nPoint: 1
+median: 0
+Start Printing::
+i: 1, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 1 EP 1 25
+i: 2, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 3, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 4, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 5, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 6, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 7, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 8, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 9, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 10, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 11, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 12, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 13, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 14, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 15, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 16, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 17, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 18, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 19, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 20, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 21, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 22, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 23, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 24, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 25, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 26, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 27, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 28, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 1 EP 1 25
+i: 29, nPoint: 1
+median: 0
+Start Printing::
+D
+i: 0, nPoint: 1
+median: 0
+Start Printing::
+i: 1, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 21
+i: 2, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 22
+i: 3, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 22
+i: 4, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 0 EP 2 23
+i: 5, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 18 EP 3 24
+i: 6, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 19 EP 3 25
+i: 7, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 20 EP 3 25
+i: 8, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 9, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 10, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 11, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 12, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 13, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 14, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 15, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 16, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 17, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 18, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 19, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 20, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 21, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 22, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 20 EP 3 25
+i: 23, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 19 EP 3 25
+i: 24, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 18 EP 3 24
+i: 25, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 0 EP 2 23
+i: 26, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 23
+i: 27, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 22
+i: 28, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 21
+i: 29, nPoint: 1
+median: 0
+Start Printing::
+E
+i: 0, nPoint: 1
+median: 0
+Start Printing::
+i: 1, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 2, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 3, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 4, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 5, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 6, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 7, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 8, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 9, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 10, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 11, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 12, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 13, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 14, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 15, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 16, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 17, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 18, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 19, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 20, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 21, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 22, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 23, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 24, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 25, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 26, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 27, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 28, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 29, nPoint: 1
+median: 0
+Start Printing::
+F
+i: 0, nPoint: 1
+median: 0
+Start Printing::
+i: 1, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 2, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 3, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 4, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 5, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 6, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 7, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 8, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 9, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 10, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 11, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 12, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 13, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 14, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 15, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 16, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 17, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 18, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 19, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 20, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 21, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 22, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 23, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 24, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 25, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 26, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 27, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 28, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 29, nPoint: 1
+median: 0
+Start Printing::
+G
+i: 0, nPoint: 1
+median: 0
+Start Printing::
+i: 1, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 1 EP 1 25
+i: 2, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 3, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 4, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 5, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 6, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 7, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 8, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 9, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 10, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 11, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 12, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 13, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 14, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 15, nPoint: 3
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+i: 16, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 12 EP 3 25
+i: 17, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 12 EP 3 25
+i: 18, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 12 EP 3 25
+i: 19, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 12 EP 3 25
+i: 20, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 21, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 22, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 23, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 24, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 21 EP 3 25
+i: 25, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 0 EP 2 25
+i: 26, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 27, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 28, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 1 EP 1 25
+i: 29, nPoint: 1
+median: 0
+Start Printing::
+H
+i: 0, nPoint: 2
+median: -1
+Start Printing::
+i: 1, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 2, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 3, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 4, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 5, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 6, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 7, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 8, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 9, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 10, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 11, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 12, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 13, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 0 EP 2 25
+i: 14, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 15, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 16, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 0 EP 2 25
+i: 17, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 18, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 19, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 20, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 21, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 22, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 23, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 24, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 25, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 26, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 27, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 28, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 29, nPoint: 2
+median: -1
+Start Printing::
+I
+i: 0, nPoint: 1
+median: 0
+Start Printing::
+i: 1, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 3 EP 1 18
+i: 2, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 3 EP 1 18
+i: 3, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 3 EP 1 12
+i: 4, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 5, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 6, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 7, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 8, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 9, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 10, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 11, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 12, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 13, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 14, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 15, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 16, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 17, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 18, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 19, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 20, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 21, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 22, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 23, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 24, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 25, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 12
+i: 26, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 3 EP 1 12
+i: 27, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 3 EP 1 18
+i: 28, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 3 EP 1 18
+i: 29, nPoint: 1
+median: 0
+Start Printing::
+J
+i: 0, nPoint: 1
+median: 0
+Start Printing::
+i: 1, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 14 EP 1 21
+i: 2, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 18 EP 1 21
+i: 3, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 18 EP 1 21
+i: 4, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 18 EP 1 21
+i: 5, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 18 EP 1 21
+i: 6, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 18 EP 1 21
+i: 7, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 18 EP 1 21
+i: 8, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 18 EP 1 21
+i: 9, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 18 EP 1 21
+i: 10, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 18 EP 1 21
+i: 11, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 18 EP 1 21
+i: 12, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 18 EP 1 21
+i: 13, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 18 EP 1 21
+i: 14, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 18 EP 1 21
+i: 15, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 18 EP 1 21
+i: 16, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 18 EP 1 21
+i: 17, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 18 EP 1 21
+i: 18, nPoint: 3
+median: -1
+Start Printing::
+SP: 0 18 EP 1 21
+i: 19, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 2 EP 1 7
+SP: 2 18 EP 3 21
+i: 20, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 18 EP 3 21
+i: 21, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 18 EP 3 21
+i: 22, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 18 EP 3 21
+i: 23, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 18 EP 3 21
+i: 24, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 5 EP 1 8
+SP: 2 18 EP 3 21
+i: 25, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 6 EP 1 9
+SP: 2 18 EP 3 21
+i: 26, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 7 EP 1 10
+SP: 2 17 EP 3 20
+i: 27, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 8 EP 2 19
+i: 28, nPoint: 1
+median: 0
+Start Printing::
+i: 29, nPoint: 0
+median: -1
+Start Printing::
+K
+i: 0, nPoint: 2
+median: -1
+Start Printing::
+i: 1, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 19 EP 3 23
+i: 2, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 18 EP 3 22
+i: 3, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 17 EP 3 21
+i: 4, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 16 EP 3 20
+i: 5, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 15 EP 3 19
+i: 6, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 14 EP 3 18
+i: 7, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 13 EP 3 17
+i: 8, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 12 EP 3 16
+i: 9, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 11 EP 3 15
+i: 10, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 10 EP 3 14
+i: 11, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 9 EP 3 13
+i: 12, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 4 EP 2 12
+i: 13, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 4 EP 1 11
+i: 14, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 4 EP 1 10
+i: 15, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 4 EP 1 10
+i: 16, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 4 EP 1 11
+i: 17, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 4 EP 2 12
+i: 18, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 9 EP 3 13
+i: 19, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 10 EP 3 14
+i: 20, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 11 EP 3 15
+i: 21, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 12 EP 3 16
+i: 22, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 13 EP 3 17
+i: 23, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 14 EP 3 18
+i: 24, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 15 EP 3 19
+i: 25, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 16 EP 3 20
+i: 26, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 17 EP 3 21
+i: 27, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 18 EP 3 22
+i: 28, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 19 EP 3 23
+i: 29, nPoint: 2
+median: -1
+Start Printing::
+L
+i: 0, nPoint: 1
+median: 0
+Start Printing::
+i: 1, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 2, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 3, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 4, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 5, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 6, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 7, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 8, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 9, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 10, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 11, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 12, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 13, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 14, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 15, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 16, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 17, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 18, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 19, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 20, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 21, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 22, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 23, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 24, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 25, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 26, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+i: 27, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 28, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 29, nPoint: 1
+median: 0
+Start Printing::
+M
+i: 0, nPoint: 2
+median: -1
+Start Printing::
+i: 1, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 7
+SP: 2 18 EP 3 25
+i: 2, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 8
+SP: 2 17 EP 3 25
+i: 3, nPoint: 6
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 8 EP 3 17
+SP: 4 22 EP 5 25
+i: 4, nPoint: 6
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 9 EP 3 16
+SP: 4 21 EP 5 25
+i: 5, nPoint: 6
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 9 EP 3 16
+SP: 4 21 EP 5 25
+i: 6, nPoint: 8
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 5 EP 3 10
+SP: 4 15 EP 5 20
+SP: 6 22 EP 7 25
+i: 7, nPoint: 8
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 6 EP 3 10
+SP: 4 15 EP 5 19
+SP: 6 22 EP 7 25
+i: 8, nPoint: 8
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 6 EP 3 11
+SP: 4 14 EP 5 19
+SP: 6 22 EP 7 25
+i: 9, nPoint: 8
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 7 EP 3 11
+SP: 4 14 EP 5 18
+SP: 6 22 EP 7 25
+i: 10, nPoint: 7
+median: 3
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 8 EP 4 17
+SP: 4 17 EP 5 22
+i: 11, nPoint: 6
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 8 EP 3 17
+SP: 4 22 EP 5 25
+i: 12, nPoint: 6
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 9 EP 3 16
+SP: 4 22 EP 5 25
+i: 13, nPoint: 6
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 10 EP 3 15
+SP: 4 22 EP 5 25
+i: 14, nPoint: 6
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 10 EP 3 15
+SP: 4 22 EP 5 25
+i: 15, nPoint: 5
+median: 2
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 3 22 EP 4 25
+i: 16, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 17, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 18, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 19, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 20, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 21, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 22, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 23, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 24, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 25, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 26, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 27, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 28, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 22 EP 3 25
+i: 29, nPoint: 2
+median: -1
+Start Printing::
+N
+i: 0, nPoint: 2
+median: -1
+Start Printing::
+i: 1, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 4
+SP: 2 22 EP 3 25
+i: 2, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 22 EP 3 25
+i: 3, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 6
+SP: 2 22 EP 3 25
+i: 4, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 6
+SP: 2 22 EP 3 25
+i: 5, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 7
+SP: 2 22 EP 3 25
+i: 6, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 8
+SP: 2 22 EP 3 25
+i: 7, nPoint: 5
+median: 2
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 3 22 EP 4 25
+i: 8, nPoint: 5
+median: 2
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 3 22 EP 4 25
+i: 9, nPoint: 6
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 5 EP 3 11
+SP: 4 22 EP 5 25
+i: 10, nPoint: 6
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 6 EP 3 12
+SP: 4 22 EP 5 25
+i: 11, nPoint: 6
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 6 EP 3 12
+SP: 4 22 EP 5 25
+i: 12, nPoint: 6
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 7 EP 3 13
+SP: 4 22 EP 5 25
+i: 13, nPoint: 6
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 8 EP 3 14
+SP: 4 22 EP 5 25
+i: 14, nPoint: 6
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 9 EP 3 15
+SP: 4 22 EP 5 25
+i: 15, nPoint: 6
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 10 EP 3 16
+SP: 4 22 EP 5 25
+i: 16, nPoint: 6
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 11 EP 3 17
+SP: 4 22 EP 5 25
+i: 17, nPoint: 6
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 12 EP 3 18
+SP: 4 22 EP 5 25
+i: 18, nPoint: 6
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 12 EP 3 19
+SP: 4 22 EP 5 25
+i: 19, nPoint: 6
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 13 EP 3 19
+SP: 4 22 EP 5 25
+i: 20, nPoint: 6
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 14 EP 3 20
+SP: 4 22 EP 5 25
+i: 21, nPoint: 5
+median: 2
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 3 21 EP 4 25
+i: 22, nPoint: 5
+median: 2
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 3 22 EP 4 25
+i: 23, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 17 EP 3 25
+i: 24, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 18 EP 3 25
+i: 25, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 19 EP 3 25
+i: 26, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 19 EP 3 25
+i: 27, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 20 EP 3 25
+i: 28, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 21 EP 3 25
+i: 29, nPoint: 2
+median: -1
+Start Printing::
+O
+i: 0, nPoint: 1
+median: 0
+Start Printing::
+i: 1, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 8 EP 1 18
+i: 2, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 7 EP 1 19
+i: 3, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 6 EP 2 20
+i: 4, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 5 EP 1 8
+SP: 2 18 EP 3 21
+i: 5, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 19 EP 3 22
+i: 6, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 3 EP 1 6
+SP: 2 20 EP 3 23
+i: 7, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 2 EP 1 5
+SP: 2 21 EP 3 24
+i: 8, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 1 EP 1 4
+SP: 2 22 EP 3 25
+i: 9, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 23 EP 3 26
+i: 10, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 23 EP 3 26
+i: 11, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 23 EP 3 26
+i: 12, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 23 EP 3 26
+i: 13, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 23 EP 3 26
+i: 14, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 23 EP 3 26
+i: 15, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 23 EP 3 26
+i: 16, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 23 EP 3 26
+i: 17, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 23 EP 3 26
+i: 18, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 23 EP 3 26
+i: 19, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 23 EP 3 26
+i: 20, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 3
+SP: 2 23 EP 3 26
+i: 21, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 1 EP 1 4
+SP: 2 22 EP 3 25
+i: 22, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 2 EP 1 5
+SP: 2 21 EP 3 24
+i: 23, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 3 EP 1 6
+SP: 2 20 EP 3 23
+i: 24, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 7
+SP: 2 19 EP 3 22
+i: 25, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 5 EP 1 8
+SP: 2 18 EP 3 21
+i: 26, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 6 EP 2 20
+i: 27, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 7 EP 1 19
+i: 28, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 8 EP 1 18
+i: 29, nPoint: 1
+median: 0
+Start Printing::
+P
+i: 0, nPoint: 1
+median: 0
+Start Printing::
+i: 1, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 2, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 3, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 0 EP 2 26
+i: 4, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 13 EP 3 26
+i: 5, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 13 EP 3 26
+i: 6, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 0 EP 2 26
+i: 7, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 8, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 9, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 10, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 11, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 12, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 13, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 14, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 15, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 16, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 17, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 18, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 19, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 20, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 21, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 22, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 23, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 24, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 25, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 26, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 27, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 28, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 29, nPoint: 1
+median: 0
+Start Printing::
+Q
+i: 0, nPoint: 1
+median: 0
+Start Printing::
+i: 1, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 2, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 3, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 0 EP 2 26
+i: 4, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 14
+SP: 2 21 EP 3 26
+i: 5, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 14
+SP: 2 21 EP 3 26
+i: 6, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 14
+SP: 2 21 EP 3 26
+i: 7, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 0 EP 2 26
+i: 8, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 9, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 10, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 11, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 12, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 13, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 14, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 15, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 16, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 17, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 18, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 19, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 20, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 21, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 22, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 23, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 24, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 25, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 26, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 27, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 28, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 29, nPoint: 1
+median: 0
+Start Printing::
+R
+i: 0, nPoint: 1
+median: 0
+Start Printing::
+i: 1, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 23
+i: 2, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 23
+i: 3, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 0 EP 2 23
+i: 4, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 18 EP 3 23
+i: 5, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 18 EP 3 23
+i: 6, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 18 EP 3 23
+i: 7, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 18 EP 3 23
+i: 8, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 0 EP 2 23
+i: 9, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 23
+i: 10, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 23
+i: 11, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 0 EP 2 10
+i: 12, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 0 EP 2 11
+i: 13, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 0 EP 2 11
+i: 14, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 7 EP 3 12
+i: 15, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 8 EP 3 13
+i: 16, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 9 EP 3 14
+i: 17, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 9 EP 3 14
+i: 18, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 10 EP 3 15
+i: 19, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 11 EP 3 16
+i: 20, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 11 EP 3 16
+i: 21, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 12 EP 3 17
+i: 22, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 13 EP 3 18
+i: 23, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 14 EP 3 19
+i: 24, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 14 EP 3 19
+i: 25, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 15 EP 3 20
+i: 26, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 16 EP 3 21
+i: 27, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 17 EP 3 22
+i: 28, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 17 EP 3 22
+i: 29, nPoint: 2
+median: -1
+Start Printing::
+S
+i: 0, nPoint: 1
+median: 0
+Start Printing::
+i: 1, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 2, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 3, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 4, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 5, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 6, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 7, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 8, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 9, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 10, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 11, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 12, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 13, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 14, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 15, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 16, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 17, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 18, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 19, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 20, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 21, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 22, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 23, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 24, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 21 EP 1 26
+i: 25, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 26, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 27, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 28, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 29, nPoint: 1
+median: 0
+Start Printing::
+T
+i: 0, nPoint: 1
+median: 0
+Start Printing::
+i: 1, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 2, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 3, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 4, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 26
+i: 5, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 17
+i: 6, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 7, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 8, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 9, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 10, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 11, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 12, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 13, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 14, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 15, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 16, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 17, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 18, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 19, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 20, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 21, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 22, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 23, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 24, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 25, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 26, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 27, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 28, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 17
+i: 29, nPoint: 1
+median: 0
+Start Printing::
+U
+i: 0, nPoint: 2
+median: -1
+Start Printing::
+i: 1, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 20 EP 3 25
+i: 2, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 20 EP 3 25
+i: 3, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 20 EP 3 25
+i: 4, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 20 EP 3 25
+i: 5, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 20 EP 3 25
+i: 6, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 20 EP 3 25
+i: 7, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 20 EP 3 25
+i: 8, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 20 EP 3 25
+i: 9, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 20 EP 3 25
+i: 10, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 20 EP 3 25
+i: 11, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 20 EP 3 25
+i: 12, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 6
+SP: 2 19 EP 3 25
+i: 13, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 6
+SP: 2 19 EP 3 25
+i: 14, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 6
+SP: 2 19 EP 3 25
+i: 15, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 6
+SP: 2 19 EP 3 25
+i: 16, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 6
+SP: 2 19 EP 3 25
+i: 17, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 6
+SP: 2 19 EP 3 25
+i: 18, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 6
+SP: 2 19 EP 3 25
+i: 19, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 6
+SP: 2 19 EP 3 25
+i: 20, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 6
+SP: 2 19 EP 3 25
+i: 21, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 6
+SP: 2 19 EP 3 25
+i: 22, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 6
+SP: 2 19 EP 3 25
+i: 23, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 6
+SP: 2 19 EP 3 25
+i: 24, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 1 EP 2 24
+i: 25, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 2 EP 1 23
+i: 26, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 3 EP 1 22
+i: 27, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 4 EP 1 21
+i: 28, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 5 EP 1 20
+i: 29, nPoint: 1
+median: 0
+Start Printing::
+V
+i: 0, nPoint: 2
+median: -1
+Start Printing::
+i: 1, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 20 EP 3 25
+i: 2, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 1 EP 1 6
+SP: 2 19 EP 3 24
+i: 3, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 1 EP 1 6
+SP: 2 19 EP 3 24
+i: 4, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 1 EP 1 6
+SP: 2 19 EP 3 23
+i: 5, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 2 EP 1 7
+SP: 2 18 EP 3 23
+i: 6, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 2 EP 1 7
+SP: 2 18 EP 3 23
+i: 7, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 2 EP 1 7
+SP: 2 17 EP 3 22
+i: 8, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 3 EP 1 8
+SP: 2 17 EP 3 22
+i: 9, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 3 EP 1 8
+SP: 2 17 EP 3 21
+i: 10, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 3 EP 1 8
+SP: 2 16 EP 3 21
+i: 11, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 8
+SP: 2 16 EP 3 20
+i: 12, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 9
+SP: 2 16 EP 3 20
+i: 13, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 9
+SP: 2 15 EP 3 20
+i: 14, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 5 EP 1 9
+SP: 2 15 EP 3 19
+i: 15, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 5 EP 1 10
+SP: 2 15 EP 3 19
+i: 16, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 6 EP 1 10
+SP: 2 14 EP 3 18
+i: 17, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 6 EP 1 10
+SP: 2 14 EP 3 18
+i: 18, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 6 EP 1 11
+SP: 2 13 EP 3 18
+i: 19, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 7 EP 1 11
+SP: 2 13 EP 3 17
+i: 20, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 7 EP 1 11
+SP: 2 13 EP 3 17
+i: 21, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 7 EP 2 16
+i: 22, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 8 EP 2 16
+i: 23, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 8 EP 1 15
+i: 24, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 8 EP 1 15
+i: 25, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 15
+i: 26, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 14
+i: 27, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 14
+i: 28, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 10 EP 1 13
+i: 29, nPoint: 1
+median: 0
+Start Printing::
+W
+i: 0, nPoint: 2
+median: -1
+Start Printing::
+i: 1, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 20 EP 3 25
+i: 2, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+SP: 2 20 EP 3 25
+i: 3, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 1 EP 1 5
+SP: 2 20 EP 3 24
+i: 4, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 1 EP 1 5
+SP: 2 20 EP 3 24
+i: 5, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 1 EP 1 5
+SP: 2 20 EP 3 24
+i: 6, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 1 EP 1 5
+SP: 2 20 EP 3 24
+i: 7, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 1 EP 1 5
+SP: 2 20 EP 3 24
+i: 8, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 1 EP 1 5
+SP: 2 20 EP 3 24
+i: 9, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 2 EP 1 5
+SP: 2 20 EP 3 23
+i: 10, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 2 EP 1 5
+SP: 2 20 EP 3 23
+i: 11, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 2 EP 1 5
+SP: 2 20 EP 3 23
+i: 12, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 2 EP 1 6
+SP: 2 19 EP 3 23
+i: 13, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 2 EP 1 6
+SP: 2 19 EP 3 23
+i: 14, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 2 EP 1 6
+SP: 2 19 EP 3 23
+i: 15, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 3 EP 1 6
+SP: 2 19 EP 3 22
+i: 16, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 3 EP 1 6
+SP: 2 19 EP 3 22
+i: 17, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 3 EP 1 6
+SP: 2 19 EP 3 22
+i: 18, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 3 EP 1 6
+SP: 2 19 EP 3 22
+i: 19, nPoint: 5
+median: 2
+Start Printing::
+SP: 0 3 EP 1 6
+SP: 3 19 EP 4 22
+i: 20, nPoint: 6
+median: -1
+Start Printing::
+SP: 0 3 EP 1 6
+SP: 2 10 EP 3 14
+SP: 4 19 EP 5 22
+i: 21, nPoint: 6
+median: -1
+Start Printing::
+SP: 0 4 EP 1 6
+SP: 2 8 EP 3 16
+SP: 4 19 EP 5 21
+i: 22, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 6
+SP: 2 18 EP 3 21
+i: 23, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 4 EP 1 21
+i: 24, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 4 EP 2 21
+i: 25, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 11
+SP: 2 14 EP 3 21
+i: 26, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 11
+SP: 2 14 EP 3 21
+i: 27, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 5 EP 1 10
+SP: 2 15 EP 3 20
+i: 28, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 5 EP 1 10
+SP: 2 15 EP 3 20
+i: 29, nPoint: 2
+median: -1
+Start Printing::
+X
+i: 0, nPoint: 2
+median: -1
+Start Printing::
+i: 1, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 1 EP 1 6
+SP: 2 19 EP 3 24
+i: 2, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 1 EP 1 7
+SP: 2 18 EP 3 24
+i: 3, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 2 EP 1 7
+SP: 2 18 EP 3 23
+i: 4, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 3 EP 1 8
+SP: 2 17 EP 3 22
+i: 5, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 9
+SP: 2 16 EP 3 21
+i: 6, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 10
+SP: 2 15 EP 3 21
+i: 7, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 5 EP 1 10
+SP: 2 15 EP 3 20
+i: 8, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 6 EP 1 11
+SP: 2 14 EP 3 19
+i: 9, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 6 EP 2 19
+i: 10, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 7 EP 1 18
+i: 11, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 8 EP 1 17
+i: 12, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 16
+i: 13, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 16
+i: 14, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 10 EP 1 15
+i: 15, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 10 EP 1 15
+i: 16, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 16
+i: 17, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 16
+i: 18, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 8 EP 1 17
+i: 19, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 7 EP 1 18
+i: 20, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 6 EP 2 19
+i: 21, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 6 EP 1 11
+SP: 2 14 EP 3 19
+i: 22, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 5 EP 1 10
+SP: 2 15 EP 3 20
+i: 23, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 10
+SP: 2 15 EP 3 21
+i: 24, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 9
+SP: 2 16 EP 3 21
+i: 25, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 3 EP 1 8
+SP: 2 17 EP 3 22
+i: 26, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 2 EP 1 7
+SP: 2 18 EP 3 23
+i: 27, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 1 EP 1 7
+SP: 2 18 EP 3 24
+i: 28, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 1 EP 1 6
+SP: 2 19 EP 3 24
+i: 29, nPoint: 2
+median: -1
+Start Printing::
+Y
+i: 0, nPoint: 2
+median: -1
+Start Printing::
+i: 1, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 1 EP 1 6
+SP: 2 19 EP 3 24
+i: 2, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 2 EP 1 7
+SP: 2 18 EP 3 23
+i: 3, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 2 EP 1 8
+SP: 2 17 EP 3 23
+i: 4, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 3 EP 1 8
+SP: 2 17 EP 3 22
+i: 5, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 4 EP 1 9
+SP: 2 16 EP 3 21
+i: 6, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 5 EP 1 10
+SP: 2 15 EP 3 20
+i: 7, nPoint: 4
+median: -1
+Start Printing::
+SP: 0 5 EP 1 11
+SP: 2 14 EP 3 20
+i: 8, nPoint: 3
+median: 1
+Start Printing::
+SP: 0 6 EP 2 19
+i: 9, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 7 EP 1 18
+i: 10, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 8 EP 1 17
+i: 11, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 8 EP 1 17
+i: 12, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 16
+i: 13, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 10 EP 1 15
+i: 14, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 10 EP 1 15
+i: 15, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 10 EP 1 15
+i: 16, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 10 EP 1 15
+i: 17, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 10 EP 1 15
+i: 18, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 10 EP 1 15
+i: 19, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 10 EP 1 15
+i: 20, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 10 EP 1 15
+i: 21, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 10 EP 1 15
+i: 22, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 10 EP 1 15
+i: 23, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 10 EP 1 15
+i: 24, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 10 EP 1 15
+i: 25, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 10 EP 1 15
+i: 26, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 10 EP 1 15
+i: 27, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 10 EP 1 15
+i: 28, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 10 EP 1 15
+i: 29, nPoint: 1
+median: 0
+Start Printing::
+Z
+i: 0, nPoint: 1
+median: 0
+Start Printing::
+i: 1, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 2, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 3, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 4, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 5, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 6, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 19 EP 1 24
+i: 7, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 18 EP 1 23
+i: 8, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 17 EP 1 22
+i: 9, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 16 EP 1 21
+i: 10, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 15 EP 1 20
+i: 11, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 14 EP 1 19
+i: 12, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 13 EP 1 18
+i: 13, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 12 EP 1 17
+i: 14, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 11 EP 1 16
+i: 15, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 9 EP 1 14
+i: 16, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 8 EP 1 13
+i: 17, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 7 EP 1 12
+i: 18, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 6 EP 1 11
+i: 19, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 5 EP 1 10
+i: 20, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 4 EP 1 9
+i: 21, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 3 EP 1 8
+i: 22, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 2 EP 1 7
+i: 23, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 1 EP 1 6
+i: 24, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 5
+i: 25, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 26, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 27, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 28, nPoint: 2
+median: -1
+Start Printing::
+SP: 0 0 EP 1 25
+i: 29, nPoint: 1
+median: 0
+Start Printing::
