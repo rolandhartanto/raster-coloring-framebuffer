@@ -4,7 +4,7 @@ are correct, use the program below which opens the frame buffer and draws a grad
 filled red square:
 
 retrieved from:
-Testing the Linux Framebuffer for Qtopia Core (qt4-x11-4.2.2)
+TesXting the Linux Framebuffer for Qtopia Core (qt4-x11-4.2.2)
 
 http://cep.xor.aps.anl.gov/software/qt4-x11-4.2.2/qtopiacore-testingframebuffer.html
 */
@@ -58,7 +58,7 @@ int main() {
     init();   
     int i,j;
     FILE *ffont;
-    ffont = fopen("../data/font.txt","r");
+    ffont = fopen("data/font.txt","r");
     if(ffont == NULL) {
         printf("No data in font.txt\n");
         return 0;
@@ -67,7 +67,10 @@ int main() {
         int xa,xb,ya,yb;
         int num_of_line;
         printf("ok\n");
-        for(i = 0; i < 7; i++){
+        for(i = 0; i < 13; i++){
+            char dummy;
+            fscanf(ffont,"\n%c",&dummy);
+            printf("dummy: %c\n",dummy);
             fscanf(ffont, "%d",&num_of_line);
             alphabet[i].nline = num_of_line;
             for(j = 0; j<num_of_line; j++){
@@ -93,7 +96,12 @@ int main() {
     //bresLine(216,200,234,258,1);      
     
     while(1){
-    	drawLetter(100,100,alphabet[0]);
+    	drawLetter(100,100,alphabet[7]);
+    	drawLetter(150,100,alphabet[8]);
+    	drawLetter(200,100,alphabet[9]);
+    	drawLetter(250,100,alphabet[10]);
+    	drawLetter(300,100,alphabet[11]);
+    	drawLetter(350,100,alphabet[12]);
     }
     /*
     while(1){
@@ -216,102 +224,6 @@ void bresLine(int x_1, int y_1, int x_2, int y_2, int thickness){
         }
     }
 }
-/*
-void bresLine(int x1, int y1, int x2, int y2, int thickness){
-    int dx, dy, x, y, x_end, y_end, p, const1, const2, i;
-    for(i = 0; i < thickness; i++){
-	if(((x1-x2 > 0)&&(y1-y2 > 0))||((x1-x2 < 0)&&(y1-y2 < 0))){
-            dx = abs(x1-x2);
-            dy = abs(y1-y2);
-            
-            p = 2 * dy - dx;
-            const1 = 2 * dy;
-            const2 = 2 * (dy-dx);
-
-            if(x1 > x2){
-                x = x2 + i;
-                y = y2;
-                x_end = x1 + i;
-                y_end = y1;
-            }else{
-                x = x1 + i;
-                y = y1;
-                x_end = x2 + i;
-                y_end = y2;
-            }
-    
-            printPixel(x,y,0);
-            if(dx >= dy){
-                while(x < x_end){
-                    x++;
-                    if(p < 0){
-                        p = p + const1;
-                    }else{
-                        y++;
-                        p = p + const2;
-                    }
-        
-                    printPixel(x,y,0);
-                }
-            }else{
-                while(y < y_end){
-                    y++;
-                    if(p > 0){
-                        p = p + const1;
-                    }else{
-                        x++;
-                        p = p + const2;
-                    }
-        
-                    printPixel(x,y,0);
-                }
-            }
-        }else if(((x1-x2 < 0)&&(y1-y2 > 0))||((x1-x2 > 0)&&(y1-y2 < 0))){ //gradien negatif
-            dx = abs(x1-x2);
-            dy = abs(y1-y2);
-    
-            p = 2 * dy - dx;
-            const1 = 2 * dy;
-            const2 = 2 * (dy-dx);
-
-            if(x1 > x2){
-                x = x2 + i;
-                y = y2;
-                x_end = x1 + i;
-            }else{
-                x = x1 + i;
-                y = y1;
-                x_end = x2 + i;
-            }
-    
-            printPixel(x,y,0);
-            while(x < x_end){
-                x++;
-                if(p < 0){
-                    p = p + const1;
-                }else{
-                    y--;
-                    p = p + const2;
-                }
-        
-                printPixel(x,y,0);
-            }
-        }else if(x1-x2 == 0){ //gradien tak hingga
-            y_end = (y1 > y2)? y1:y2;
-            y = (y1 > y2)? y2:y1;
-            for(int j=y; j<y_end; j++){
-                printPixel(x1+i,j,0);
-            }
-        }else if(y1-y2 == 0){ //gradien 0
-            x_end = (x1 > x2)? x1:x2;
-            x = (x1 > x2)? x2:x1;
-            for(int j=x; j<x_end; j++){
-                printPixel(j,y1+i,0);
-            }
-        }
-        
-    }
-}*/
 
 void drawLetter(int roffset, int coffset, letter x){
     int i,j;
