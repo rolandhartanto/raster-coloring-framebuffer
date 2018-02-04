@@ -57,7 +57,7 @@ int main() {
     init();   
     int i,j;
     FILE *ffont;
-    ffont = fopen("../data/font.txt","r");
+    ffont = fopen("data/font.txt","r");
     if(ffont == NULL) {
         printf("No data in font.txt\n");
         return 0;
