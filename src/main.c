@@ -100,7 +100,7 @@ int main() {
         input[i] = kar;
     }
 
-    printf("input: %s\n", input);
+    //printf("input: %s\n", input);
     clearScreen();
 
     int kolom = 700;
@@ -119,7 +119,7 @@ int main() {
     while(i < strlen(input)) {
         for(int j = 0; j < 26; j++) {
             if(input[i] == alphabet[j].font) {
-                printf("%c\n", input[i]);
+                //printf("%c\n", input[i]);
                 drawLetter(ystart,xstart,alphabet[j]);
             }
         }
@@ -272,7 +272,7 @@ void rasterize(int roffset, int coffset, char font) {
                 nPoint++;
             }
         }
-        printf("i: %d, nPoint: %d\n", i, nPoint);
+        //printf("i: %d, nPoint: %d\n", i, nPoint);
         int median = -1;
         if(font == 'G' && i==15) {
             nPoint--;
@@ -281,12 +281,45 @@ void rasterize(int roffset, int coffset, char font) {
             arr[1] = arr[2];
             nPoint--;
         }
+        else if (font == 'M' && i==3) {
+            //printf("nPoint = %d\n", nPoint);
+            arr[1] = arr[2];
+            arr[4] = arr[5];
+            //arr[6] = arr[2];
+            nPoint--;
+        }
+        else if (font == 'M' && i==10) {
+            //printf("nPoint = %d\n", nPoint);
+            arr[3] = arr[4];
+            arr[4] = arr[5];
+            arr[5] = arr[6];
+            nPoint--;
+        }
+        else if(font == 'N' && i == 7) {
+            //arr[0] = arr[1];
+            arr[1] = arr[2];
+            arr[2] = arr[3];
+            arr[3] = arr[4];
+            nPoint--;
+        }
+        else if (font == 'N' && i==22) {
+            //printf("nPoint = %d\n", nPoint);
+            arr[3] = arr[4];
+            arr[4] = arr[5];
+            nPoint--;
+        }
+        else if (font == 'W' && i==22) {
+            //printf("nPoint = %d\n", nPoint);
+            arr[2] = arr[3];
+            arr[3] = arr[4];
+            nPoint--;
+        }
         if(nPoint % 2 != 0) {
             median = nPoint / 2;
         }
        
-        printf("median: %d\n", median);
-        printf("Start Printing::\n");
+        //printf("median: %d\n", median);
+        //printf("Start Printing::\n");
         if(nPoint > 1 && i!=0 && i!=29) {
             for(int it = 0; it < nPoint-1; it+=2) {
                 if(it == median) {
@@ -296,7 +329,7 @@ void rasterize(int roffset, int coffset, char font) {
                 int endPoint = it+1;
                 if(endPoint == median)
                     endPoint++;
-                printf("SP: %d %d EP %d %d\n", startPoint, arr[startPoint], endPoint, arr[endPoint]);
+                //printf("SP: %d %d EP %d %d\n", startPoint, arr[startPoint], endPoint, arr[endPoint]);
                 if(endPoint < nPoint){
                     if(arr[endPoint] > arr[startPoint]){
                         for(int jt = arr[startPoint]; jt < arr[endPoint];jt++){
