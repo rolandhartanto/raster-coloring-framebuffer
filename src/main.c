@@ -32,6 +32,7 @@ typedef struct{
 }line;
 
 typedef struct{
+    char font; //huruf apa
     int nline; //jumlah garis
     line border[40];
 }letter;
@@ -72,6 +73,7 @@ int main() {
             fscanf(ffont,"\n%c",&dummy);
             printf("dummy: %c\n",dummy);
             fscanf(ffont, "%d",&num_of_line);
+            alphabet[i].font = dummy;
             alphabet[i].nline = num_of_line;
             for(j = 0; j<num_of_line; j++){
                 fscanf(ffont, "%d %d %d %d",&xa,&ya,&xb,&yb);
@@ -84,19 +86,6 @@ int main() {
             }
         }
     }
-    int kolom = 700;
-    
-
-    //testing for displaying all 26 characters
-    // while(1){
-    //     int x = 0, y = 0;
-    //     for(i=0;i<26;i++){
-    //         drawLetter(x,y,alphabet[i]);
-    //         y+=30;
-    //         if((y+30)>800){x+=30; y = 0;}
-    //     }
-    	
-    // }
     char input[1000];
     scanf("%[^\n]s",input);
 
@@ -111,20 +100,35 @@ int main() {
 
     printf("input: %s\n", input);
     clearScreen();
-    clearScreen();
-    int x = 10, y = 10;
-    for(i=0;i<strlen(input);i++){
-        char kar = input[i];
-        if(kar!=' '){
-            int idx = kar-65;
-            drawLetter(x,y,alphabet[idx]);
-        }else{
-            
-        }
-        y+=30; //langsung skip 30 pixel ke kanan
-        if((y+30)>800){x+=30; y = 0;}
-    }
 
+    int kolom = 700;
+    //bresLine(500,500,0,0,1);
+    //bresLine(0,0,500,100,1);
+    //bresLine(500,0,500,100,1);
+    //bresLine(0,100,500,100,1);
+    //bresLine(100,0,0,300,1);
+    //bresLine(316,300,325,329,1);
+    //bresLine(216,200,234,258,1);      
+
+    int xstart = 50;
+    int ystart = 50;
+    int cursor = 0;  
+    i = 0;    
+    while(i < strlen(input)) {
+        for(int j = 0; j < 26; j++) {
+            if(input[i] == alphabet[j].font) {
+                drawLetter(ystart,xstart,alphabet[j]);
+            }
+        }
+        xstart+=50;
+        i++;
+        cursor++;
+        if(cursor == 14) {
+            ystart+=50;
+            xstart=50;
+            cursor=0;
+        }
+    }
     munmap(fbp, screensize);
     close(fbfd);
 
