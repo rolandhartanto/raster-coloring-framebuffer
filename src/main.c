@@ -67,7 +67,7 @@ int main() {
         int xa,xb,ya,yb;
         int num_of_line;
         printf("ok\n");
-        for(i = 0; i < 14; i++){
+        for(i = 0; i < 26; i++){
             char dummy;
             fscanf(ffont,"\n%c",&dummy);
             printf("dummy: %c\n",dummy);
@@ -84,46 +84,50 @@ int main() {
             }
         }
     }
-
-    clearScreen();
     int kolom = 700;
-    //bresLine(500,500,0,0,1);
-    bresLine(0,0,500,100,1);
-    bresLine(500,0,500,100,1);
-    bresLine(0,100,500,100,1);
-    bresLine(100,0,0,300,1);
-    //bresLine(316,300,325,329,1);
-    //bresLine(216,200,234,258,1);      
     
-    while(1){
-    	//drawLetter(100,100,alphabet[11]);
-    	drawLetter(100,100,alphabet[7]);
-    	drawLetter(150,100,alphabet[8]);
-    	drawLetter(200,100,alphabet[9]);
-    	drawLetter(250,100,alphabet[10]);
-    	drawLetter(300,100,alphabet[11]);
-    	drawLetter(350,100,alphabet[12]);
-    }
-    /*
-    while(1){
-        clearScreen();
-        int idx = i+1;
-        int i = 0;
-        printf("%d\n", i);
-        // Garis vertikal atau miring
-        while(i < idx) {
-            printf("%d\n", i);
-            bresLine(atoi(bg[i]), atoi(bg[i+1]), atoi(bg[i+2]), atoi(bg[i+3]), 2);
-            printf("%d\n", i);
-            i = i + 4;
-        }
-        i = 0;
-        // TODO: Garis horizontal
-        
 
-    }*/
+    //testing for displaying all 26 characters
+    // while(1){
+    //     int x = 0, y = 0;
+    //     for(i=0;i<26;i++){
+    //         drawLetter(x,y,alphabet[i]);
+    //         y+=30;
+    //         if((y+30)>800){x+=30; y = 0;}
+    //     }
+    	
+    // }
+    char input[1000];
+    scanf("%[^\n]s",input);
+
+    //make upper case
+    for(i=0;i<strlen(input);i++){
+        char kar = input[i];
+        if(kar>=97 && kar<=122){
+            kar-=32;
+        }
+        input[i] = kar;
+    }
+
+    printf("input: %s\n", input);
+    clearScreen();
+    clearScreen();
+    int x = 10, y = 10;
+    for(i=0;i<strlen(input);i++){
+        char kar = input[i];
+        if(kar!=' '){
+            int idx = kar-65;
+            drawLetter(x,y,alphabet[idx]);
+        }else{
+            
+        }
+        y+=30; //langsung skip 30 pixel ke kanan
+        if((y+30)>800){x+=30; y = 0;}
+    }
+
     munmap(fbp, screensize);
     close(fbfd);
+
     return 0;
 }
 
