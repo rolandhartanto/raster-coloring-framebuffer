@@ -280,6 +280,9 @@ void rasterize(int roffset, int coffset, char font) {
             arr[0] = arr[1];
             arr[1] = arr[2];
             nPoint--;
+        } else if(font == 'W' && i==22) {
+            arr[1] = arr[3];
+            nPoint-=2;
         }
         if(nPoint % 2 != 0) {
             median = nPoint / 2;
