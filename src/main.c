@@ -4,7 +4,7 @@ are correct, use the program below which opens the frame buffer and draws a grad
 filled red square:
 
 retrieved from:
-Testing the Linux Framebuffer for Qtopia Core (qt4-x11-4.2.2)
+TesXting the Linux Framebuffer for Qtopia Core (qt4-x11-4.2.2)
 
 http://cep.xor.aps.anl.gov/software/qt4-x11-4.2.2/qtopiacore-testingframebuffer.html
 */
@@ -67,6 +67,9 @@ int main() {
         int num_of_line;
         printf("ok\n");
         for(i = 0; i < 7; i++){
+            char dummy;
+            fscanf(ffont,"\n%c",&dummy);
+            printf("dummy: %c\n",dummy);
             fscanf(ffont, "%d",&num_of_line);
             alphabet[i].nline = num_of_line;
             for(j = 0; j<num_of_line; j++){
@@ -85,7 +88,7 @@ int main() {
     int kolom = 700;
     //bresLine(0,0,400,200,1);   
     while(1){
-    	drawLetter(100,100,alphabet[2]);
+    	drawLetter(100,100,alphabet[6]);
     }
     /*
     while(1){
